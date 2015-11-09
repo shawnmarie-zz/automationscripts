@@ -9,6 +9,7 @@
   "author": "sma",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.65.0"
+    "request": "^2.65.0",
+    "sync-request": "^2.1.0"
   }
 }

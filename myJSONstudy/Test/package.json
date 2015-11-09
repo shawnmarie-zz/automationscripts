@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jiraDelete.js",
+  "scripts": {
+    "start": "node jiraDelete.js"
+  },
+  "author": "sma",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}

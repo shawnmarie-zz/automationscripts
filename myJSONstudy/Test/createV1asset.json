@@ -1,0 +1,102 @@
+{
+    "url": "http://localhost/VersionOne",
+    "username": "admin",
+    "password": "admin",
+
+    "commands": [{
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Alpha Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:200",
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:14978"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Beta Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",            
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Gamma Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:199",
+            "Priority": "EpicPriority:204",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Delta Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:200",
+            "Priority": "EpicPriority:205",
+            "Owners":{
+                    "add": ["Member:14978"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Epsilon Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:201",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Zeta Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:202",
+            "Priority": "EpicPriority:205",
+            "Owners":{
+                    "add": ["Member:12480"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J7 Iota Sun {{number}}",
+            "Scope": "Scope:30890",
+            "Category":"EpicCategory:208",
+            "Status": "EpicStatus:206",
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:12480"]
+                }
+        }
+    }]
+}

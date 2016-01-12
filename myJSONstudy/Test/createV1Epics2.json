@@ -1,0 +1,102 @@
+{
+    "url": "http://localhost/VersionOne",
+    "username": "admin",
+    "password": "admin",
+
+    "commands": [{
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Uno {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:200",
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:14978"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Dos {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",            
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Tres {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:199",
+            "Priority": "EpicPriority:204",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Quatro {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:200",
+            "Priority": "EpicPriority:205",
+            "Owners":{
+                    "add": ["Member:14978"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Cinco {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:201",
+            "Owners":{
+                    "add": ["Member:20685"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Seis {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:202",
+            "Priority": "EpicPriority:205",
+            "Owners":{
+                    "add": ["Member:12480"]
+                }
+        }
+    },
+    {
+        "command": "create",
+        "assetType": "Epic",
+        "attributes": {
+            "Name": "SMB J6 Siete {{number}}",
+            "Scope": "Scope:30891",
+            "Category":"EpicCategory:30630",
+            "Status": "EpicStatus:206",
+            "Priority": "EpicPriority:203",
+            "Owners":{
+                    "add": ["Member:12480"]
+                }
+        }
+    }]
+}

@@ -1,6 +1,6 @@
 var request = require("sync-request");
 
-var jiraProjId = "JST";
+var jiraProjId = "SMAS";
 
 var issuesToDelete = [];
 var res = request('GET','http://jira-6.cloudapp.net:8080/rest/api/2/search?jql=project=' +jiraProjId + '&fields=summary',{
